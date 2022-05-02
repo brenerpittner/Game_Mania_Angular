@@ -1,10 +1,3 @@
-/* CSS reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: 20;
-}
-
 a, p, a .btn, label{
     color:white;
     font-family: arial;
@@ -12,16 +5,10 @@ a, p, a .btn, label{
     text-decoration: none;
 }
 
-/* watermark */
-.watermark {
-    width: 350px;
-    height: 263px;
-}
-
 .btn {
     background-color: green;
     border-radius: 2px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -31,22 +18,4 @@ a, p, a .btn, label{
     width: 100vw; /* Largura do view port*/
     height: 100vh; /* Altura do view port*/
     background: linear-gradient(90deg, #910DFF 0%, #000000 100%);
-}
-
-.flex_center_center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex_between_center {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flex_column_between {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }

@@ -1,0 +1,76 @@
+p {
+    color:white;
+    font-family: arial;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer - geral */
+.container_footer {
+    height: auto;
+    background: linear-gradient(86.11deg, #910DFF 0%, #000000 96.81%);  
+}
+
+/* Footer - pagamentos */
+.flags {
+    width: 42px;
+    height: 27px;
+}
+
+/* Footer - aplicativos */
+.apps {
+    width: 135px;
+    height: 40px;
+}
+
+/* Footer - redes sociais */
+.container_column{
+    padding-top: 50px;
+}
+
+.social {
+    width: 34px;
+    height: 34px;
+}
+/* Footer - NewsLetter */
+.input-NewsLetter {
+    /* font */
+    color:black;
+    font-family: arial;
+    font-size: 16px;
+    /* sets */
+    border-radius: 2px;
+    padding: 8px 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.button-NewsLetter {
+    /* font */
+    color:white;
+    font-family: arial;
+    font-size: 16px;
+    text-decoration: none;
+    /* sets */
+    background-color: green;
+    border-radius: 2px;
+    padding: 8px 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* copyright */
+.container_copyright {
+    height: auto;
+    background: linear-gradient(86.11deg, #910DFF 0%, #000000 96.81%);
+}
+
+.text_copyright p{
+    font-size: 12px;
+    text-align: center;
+}

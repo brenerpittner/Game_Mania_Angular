@@ -1,29 +1,32 @@
 <section class="background flex_center_center">
     <div class="flex_between_center">
         <div>
-            <a href="index.html"><img class="logo" src="assets/img/GAME MANIA_white.png" alt="Logo do site Game Mania"></a>
+            <a routerLink=""><img class="logo" src="assets/img/GAME MANIA_white.png" alt="Logo do site Game Mania"></a>
         </div>
         <div>
-            <div class="flex_between_center">
+            <form class="flex_between_center" (ngSubmit)="receberDados()">
                 <div class="flex_column_between">
-                    <input type="text" id="username" maxlength="50" placeholder="Usuário">
-                    <input type="password" id="password" placeholder="Senha">
+                    <input type="email" name="email" id="email" maxlength="50" placeholder="Usuário" [(ngModel)]="userModel.email">
+                    <input type="password" name="password" id="password" placeholder="Senha" [(ngModel)]="userModel.password">
                 </div>
                 <div >
                     <a><input type="submit" value="Login" class="btn"></a>
                 </div>
-            </div>
-            <br><br>
+            </form>
+            <p id="mensagem" *ngIf="mensagem ==''"><br></p>
+            <p id="mensagem" *ngIf="mensagem !=''">{{mensagem}}</p>
+
+            <!-- <br><br> -->
             <div class="flex_between_center">
                 <div>
-                    <a><input type="checkbox" id="checkbox">
-                    lembrar-me</a>
+                    <p><input type="checkbox" id="checkbox"> lembrar-me<br />
+                    <a routerLink="/login">cadastre-se</a></p>
                 </div>
                 <div>
-                    <a>esqueceu:<br /></a>
-                    <a href="#">usuário</a>
-                    <a>/</a>
-                    <a href="#">senha</a>
+                    <p>esqueceu:<br />
+                        <a routerLink="/login">usuário</a>
+                        <a>/</a>
+                        <a routerLink="/login">senha</a></p>
                 </div>
             </div>
         </div>
