@@ -6,31 +6,30 @@
         <div>
             <form class="flex_between_center" (ngSubmit)="receberDados()">
                 <div class="flex_column_between">
-                    <input type="email" name="email" id="email" maxlength="50" placeholder="Usuário" [(ngModel)]="userModel.email">
+                    <input type="nome" name="nome" id="nome" maxlength="50" placeholder="Nome" [(ngModel)]="userModel.nome">
+                    <input type="email" name="email" id="email" maxlength="50" placeholder="Email" [(ngModel)]="userModel.email">
                     <input type="password" name="password" id="password" placeholder="Senha" [(ngModel)]="userModel.password">
+                    <!-- <input type="password" name="password" id="password" placeholder="Repetir senha" [(ngModel)]="userModel.password"> -->
                 </div>
                 <!-- espaçamento dos campos e botão -->
-                <div><p>&nbsp;</p></div>                
+                <div><p>&nbsp;</p></div>
                 <div>
-                    <a><input type="submit" value="Login" class="btn"></a>
+                    <a><input type="submit" value="Atualizar" class="btn"></a>
                 </div>
             </form>
             <!-- se variável vazio, pule linha -->
             <p id="mensagem" *ngIf="mensagem ==''"><br></p>
             <!-- se variável não vazio, mostre variavel -->
             <p id="mensagem" *ngIf="mensagem !=''">{{mensagem}}</p>
-            
-            <!-- <br><br> -->
             <div class="flex_between_center">
                 <div>
-                    <p><input type="checkbox" id="checkbox"> lembrar-me<br />
-                    <a routerLink="/register">cadastre-se</a></p>
+                    <p><a routerLink="/login">voltar para login</a></p>
                 </div>
                 <div>
-                    <p>esqueceu:<br />
-                        <a routerLink="/login">usuário</a>
-                        <a>/</a>
-                        <a routerLink="/login">senha</a></p>
+                    <p>usuário:<br>
+                    <a routerLink="/register">consultar</a>
+                    <a>/</a>
+                    <a routerLink="/register">atualizar</a></p>
                 </div>
             </div>
         </div>

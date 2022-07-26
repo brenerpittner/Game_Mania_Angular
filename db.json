@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "nome": "Thiago",
-      "email": "thiago@email.com",
-      "password": "thiago123",
+      "nome": "Thiago Santos",
+      "email": "thiagoS@email.com",
+      "password": "$2a$10$j6nt7Qn0Xogcv1ZCdoxDL.KK7c3Ve1lHmMZ5395BSqeF4jVdGPQ8S",
       "id": 2
     },
     {
@@ -11,6 +11,66 @@
       "email": "adriano@email.com",
       "password": "$2a$10$ntpWptt/90EptP2dqjFSNuJoRvi2sy6fV.ZaJy9v/cRorUJ6v2.VO",
       "id": 1
+    },
+    {
+      "email": "gabriel@email.com",
+      "password": "$2a$10$Tenq6Jtpk1SP4CzgBANHnuhQZJWfzWsEniDb.QqTGMu8hNwRoonAq",
+      "nome": "gabriel",
+      "id": 3
+    },
+    {
+      "nome": "Brener",
+      "email": "brener@email.com",
+      "password": "$2a$10$/URKF07UfYdKLxKcFqQf9Orie7Hawd8XdCaMPtcgbx0dX17OqA3GS",
+      "id": 4
+    },
+    {
+      "email": "jose@email.com",
+      "password": "$2a$10$aWtZWkOLzynoRwJlj63ZVewMvPoKk17Na89AOZqpbAdGENexJHW36",
+      "nome": "jose",
+      "id": 5
+    },
+    {
+      "email": "matheus@email.com",
+      "password": "$2a$10$UiftCUnM/W7DWcEVCd8aquENQmz7A6iD4O7GUT4DwWw.dpCAKnYy6",
+      "nome": "matheus",
+      "id": 6
+    },
+    {
+      "email": "diego@email.com",
+      "password": "$2a$10$HsNc2XVqA0VovBrtdf6D2eu1.5g/yxaceDaeEAZfRiS0aYkw8JfDm",
+      "nome": "Diego",
+      "id": 8
+    },
+    {
+      "email": "amanda@email.com",
+      "password": "$2a$10$iMeltCv.YglsMu32WLOH3OuDSJm5E5grRdrNCzljgp42kdGUPr0Xe",
+      "nome": "Amanda",
+      "id": 9
+    },
+    {
+      "email": "vivian@email.com",
+      "password": "$2a$10$e/Y6S.YKV1BszfvbIs1I.eDtu7NxoxEnJlPpqIMli/a7A6a9wI8U6",
+      "nome": "Vivian",
+      "id": 7
+    },
+    {
+      "email": "gabriel2@email.com",
+      "password": "$2a$10$rt9v7nSLQJx52gCBHBpy1eFaeFrY16phhBa64ejRat5HxahilBcSW",
+      "nome": "",
+      "id": 10
+    },
+    {
+      "email": "marcelo@email.com",
+      "password": "$2a$10$GOuA8q0DHApggjusRYQUBeysDy6wNefPiukMc6XMSJI5OZLfwTG2y",
+      "nome": "Marcelo",
+      "id": 11
+    },
+    {
+      "email": "brenerp@email.com",
+      "password": "$2a$10$etmPhg6TMtdqWtfTWn/P7Oin0PTQ6/4fJVPgwisQRe1VzGKiiLWyS",
+      "nome": "brenerp",
+      "id": 12
     }
   ]
 }

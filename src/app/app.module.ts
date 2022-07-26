@@ -12,6 +12,8 @@ import { FooterComponent } from './views/footer/footer.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { RegisterComponent } from './views/register/register.component';
+import { UpdateComponent } from './views/update/update.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     WorkformComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    RegisterComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,

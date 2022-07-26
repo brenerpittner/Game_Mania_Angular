@@ -7,13 +7,13 @@ import { User } from '../models/user';
 @Injectable({
   providedIn: 'root'
 })
-export class LoginService {
+export class RegisterService {
 
   constructor(private httpClient: HttpClient) { }
-  
-  private readonly url = "http://localhost:3000/login" //url correta json-server-auth
 
-  login(usuario: User): Observable<any> {
+  private readonly url = "http://localhost:3000/register"
+
+  register(usuario: User): Observable<any> {
     return this.httpClient.post(
       this.url,
       JSON.stringify(usuario),
@@ -23,4 +23,6 @@ export class LoginService {
       }
     )
   }
+
+
 }

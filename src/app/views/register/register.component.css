@@ -1,0 +1,21 @@
+a, p, a .btn, label{
+    color:white;
+    font-family: arial;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: green;
+    border-radius: 2px;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.background{
+    width: 100vw; /* Largura do view port*/
+    height: 100vh; /* Altura do view port*/
+    background: linear-gradient(90deg, #910DFF 0%, #000000 100%);
+}
